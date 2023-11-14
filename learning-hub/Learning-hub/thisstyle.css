@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	content-box: border-box;
+}
+
+body{
+	background-color: gray;
+}
+/*------ navbar -------*/
+#top-navbar {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: black;
+	border-bottom: 2px solid lightgreen;
+}
+
+#top-navbar .container {
+	padding-top: 10px;
+	height: 32px;
+	padding-bottom: 10px;
+
+}
+
+#brand-name h1{
+	margin-left: 20px;
+	color: lightgreen;
+	text-shadow: 1px 1px 1px black;
+	font-size: 32px;
+	display: inline;
+	float: left;
+}
+
+#brand-name{
+	text-decoration: none;
+}
+
+#top-navbar ul {
+	margin-left: auto;
+	margin-right: 20px;
+	padding-top: 12px;
+	float: right;
+}
+
+.nav-item {
+	display: inline;
+	padding-left: 10px;
+}
+
+.nav-link {
+	font-size: 18px;
+	text-decoration: none;
+	color: lightgreen;
+}
+
+.nav-link:hover {
+	color: green;
+}
+
+/*-----Side Nav ------*/
+
+#sidenav{
+	width: 20%;
+	background-color: black;
+	overflow-y: auto;
+}
+
+#sidenav-list {
+	text-align: center;
+}
+
+.sidenav-item {
+	padding-top: 10px;
+	border-bottom: 2px solid lightgreen;
+}
+
+.sidenav-link {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
